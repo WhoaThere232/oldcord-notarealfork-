@@ -1,4 +1,4 @@
-@import url("https://milbits.github.io/oldcord/src/components/showEffects.css");*/
+
 /**
   * @name OldCord
   * @version 3.0
@@ -7,12 +7,13 @@
   * @source https://github.com/milbits/oldcord
   * @description Restores discord's 2020 UI
 */
+@import url("https://milbits.github.io/oldcord/src/components/showEffects.css");*/
 @import url("https://milbits.github.io/oldcord/src/main.css");
 /* Options */
 
 :root {
 	/* Re-adds the animation for reactions. Might look weird | 0 - off | 1 - on*/
-	--reaction-animation: 0;
+	--reaction-animation: 1;
 }
 /*
 optional stuff that i don't wanna add to the main theme
